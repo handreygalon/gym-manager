@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        {% block head %}
+            <title>Handrey Emanuel Galon</title>
+        {% endblock %}
+
+        <link rel="stylesheet" href="/style.css">
+    </head>
+
+    <body>
+        <header>
+            <div class="links">
+                <a href="/">About</a>
+                <a href="/portfolio">Classes</a>
+            </div>            
+        </header> 
+
+        {% block content %}{% endblock %}
+
+    </body>
+</html>
