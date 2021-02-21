@@ -1,0 +1,25 @@
+{
+  "instructors": [
+    {
+      "avatar_url": "http://teste1",
+      "name": "teste1",
+      "birth": "1991-09-19",
+      "gender": "M",
+      "services": "Musculação"
+    },
+    {
+      "avatar_url": "http://teste2",
+      "name": "teste2",
+      "birth": "1992-09-19",
+      "gender": "M",
+      "services": "Crossfit"
+    },
+    {
+      "avatar_url": "http://teste3",
+      "name": "teste3",
+      "birth": "1993-09-19",
+      "gender": "M",
+      "services": "Musculação"
+    }
+  ]
+}
