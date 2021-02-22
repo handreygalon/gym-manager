@@ -1,25 +1,20 @@
 {
   "instructors": [
     {
-      "avatar_url": "http://teste1",
-      "name": "teste1",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19215767?s=460&u=160c2ec1907118fa09342f84a814fcf7e8c91828&v=4",
+      "name": "Handrey",
       "birth": "1991-09-19",
       "gender": "M",
-      "services": "Musculação"
+      "services": "Musculação",
+      "created_at": 1614022219913
     },
     {
-      "avatar_url": "http://teste2",
-      "name": "teste2",
-      "birth": "1992-09-19",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19215767?s=460&u=160c2ec1907118fa09342f84a814fcf7e8c91828&v=4",
+      "name": "Handrey",
+      "birth": 685238400000,
       "gender": "M",
-      "services": "Crossfit"
-    },
-    {
-      "avatar_url": "http://teste3",
-      "name": "teste3",
-      "birth": "1993-09-19",
-      "gender": "M",
-      "services": "Musculação"
+      "services": "teste",
+      "created_at": 1614022454796
     }
   ]
 }
