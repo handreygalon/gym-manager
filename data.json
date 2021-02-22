@@ -2,19 +2,12 @@
   "instructors": [
     {
       "avatar_url": "https://avatars.githubusercontent.com/u/19215767?s=460&u=160c2ec1907118fa09342f84a814fcf7e8c91828&v=4",
-      "name": "Handrey",
-      "birth": "1991-09-19",
+      "birth": 685238400000,
+      "created_at": 1614033645612,
+      "id": 1,
       "gender": "M",
       "services": "Musculação",
-      "created_at": 1614022219913
-    },
-    {
-      "avatar_url": "https://avatars.githubusercontent.com/u/19215767?s=460&u=160c2ec1907118fa09342f84a814fcf7e8c91828&v=4",
-      "name": "Handrey",
-      "birth": 685238400000,
-      "gender": "M",
-      "services": "teste",
-      "created_at": 1614022454796
+      "name": "Handrey"
     }
   ]
 }
