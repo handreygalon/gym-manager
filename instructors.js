@@ -1,5 +1,22 @@
 const fs = require('fs')
+const { send } = require('process')
 const data = require('./data.json')
+
+// Show
+exports.show = function(req, res) {
+    // req.query.id
+    // req.body
+    // req.params.id = /:id:/member
+    const { id } = req.params
+
+    const foundInstructor = data.instructors.find(function(instructor) {
+        return instructor.id == id
+    })
+
+    if (!foundInstructor) return res.send("Instructor not found!")
+
+    return res.send(foundInstructor)
+}
 
 // Create
 exports.post = function(req, res) {
@@ -13,6 +30,7 @@ exports.post = function(req, res) {
     }
 
     let {avatar_url, birth, name, services, gender} = req.body
+    console.log(req.body)
 
     birth = Date.parse(birth)
     const created_at = Date.now()
