@@ -6,8 +6,17 @@
       "created_at": 1614033645612,
       "id": 1,
       "gender": "M",
-      "services": "Musculação",
+      "services": "Musculação, Crossfit, Natação",
       "name": "Handrey"
+    },
+    {
+      "id": 2,
+      "avatar_url": "http://teste",
+      "name": "teste",
+      "birth": 978307200000,
+      "gender": "M",
+      "services": "teste",
+      "created_at": 1614082557894
     }
   ]
 }
