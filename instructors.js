@@ -3,6 +3,10 @@ const { send } = require('process')
 const data = require('./data.json')
 const { age, date } = require('./utils')
 
+exports.index = function(req, res) {
+    return res.render('instructors/index', { instructors: data.instructors })
+}
+
 exports.show = function(req, res) {
     // req.query.id
     // req.body
@@ -101,7 +105,8 @@ exports.put = function(req, res) {
     const instructor = {
         ...foundInstructor,
         ...req.body,
-        birth: Date.parse(req.body.birth)
+        birth: Date.parse(req.body.birth),
+        id: Number(req.body.id)
     }
 
     data.instructors[index] = instructor
