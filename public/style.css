@@ -173,3 +173,8 @@ a.edit_button {
     text-align: center;
     text-decoration: none;
 }
+
+#form_delete button[type="submit"] {
+    margin-top: 8px;
+    background-color: lightcoral;
+}
