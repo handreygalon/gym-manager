@@ -10,6 +10,7 @@ exports.index = function(req, res) {
 exports.create = function(req, res) {
     return res.render('members/create')
 }
+
 exports.show = function(req, res) {
     const { id } = req.params
 
@@ -19,12 +20,6 @@ exports.show = function(req, res) {
 
     if (!foundMember) return res.send("Member not found!")
 
-    let options = {
-        year: "numeric",
-        month: "2-digit",
-        day: "numeric"
-    };
-
     const member = {
         ...foundMember,
         birth: date(foundMember.birth).birthDay
@@ -32,7 +27,6 @@ exports.show = function(req, res) {
 
     return res.render("members/show", { member })
 }
-
 
 exports.post = function(req, res) {
     const keys = Object.keys(req.body)
@@ -74,7 +68,7 @@ exports.edit = function(req, res) {
 
     const member = {
         ...foundMember,
-        birth: date(foundMember.birth)
+        birth: date(foundMember.birth).iso
     }
     
     return res.render('members/edit', { member })
